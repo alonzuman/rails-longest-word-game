@@ -1,0 +1,11 @@
+<div class="container">
+  <h1>Result</h1>
+  <div class="user-guess">
+    "Your word is: <b> <%= @user_guess %> </b>"
+  </div>
+  <div class="another-round">
+    <%= link_to "Another round!", new_path, class: "button"%>
+  </div>
+  <%= @wagon_api %>
+</div>
+
